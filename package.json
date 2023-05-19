@@ -1,0 +1,25 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora em Typescript",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch --style=compressed assets/scss:assets/css",
+    "tsc": "tsc --watch",
+    "dev": "concurrently \"npm run sass\" \"npm run tsc\""
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Endryush",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.4"
+  }
+}
